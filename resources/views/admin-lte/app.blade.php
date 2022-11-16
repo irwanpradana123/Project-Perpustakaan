@@ -3,6 +3,7 @@
 
 <head>
     @include('admin-lte/header')
+    @livewireStyles
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -45,6 +46,7 @@
     <!-- ./wrapper -->
 
     @include('admin-lte/javascript')
+    @livewireScripts
 </body>
 
 </html>
