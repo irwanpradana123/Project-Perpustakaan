@@ -26,5 +26,16 @@ class BukuSeeder extends Seeder
             'rak_id' => 1,
             'stok' => 10
         ]);
+
+        buku::create([
+            'judul' => 'cinta',
+            'slug' => Str::slug('cinta'),
+            'sampul' => 'cinta.jpg',
+            'penulis' => 'natta reza',
+            'penerbit_id' => 1,
+            'kategori_id' => 1,
+            'rak_id' => 1,
+            'stok' => 10
+        ]);
     }
 }

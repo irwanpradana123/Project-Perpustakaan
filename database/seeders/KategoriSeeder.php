@@ -20,7 +20,7 @@ class KategoriSeeder extends Seeder
 
         foreach ($kategori as $value) {
             Kategori::create([
-                'name' => $value,
+                'nama' => $value,
                 'slug' => Str::slug($value)
             ]);
         }

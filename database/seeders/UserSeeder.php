@@ -27,7 +27,7 @@ class UserSeeder extends Seeder
             'email' => 'petugas@gmail.com',
             'password' => bcrypt('12345'),
             'email_verified_at' => now()
-        ])->assignRole('pertugas');
+        ])->assignRole('petugas');
 
         User::create([
             'name' => 'peminjam',

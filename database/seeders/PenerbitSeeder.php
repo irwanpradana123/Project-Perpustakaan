@@ -21,7 +21,7 @@ class PenerbitSeeder extends Seeder
 
         foreach ($penerbit as $key => $value) {
             Penerbit::create([
-                'name' => $value,
+                'nama' => $value,
                 'slug' => Str::slug($value)
             ]);
         }
